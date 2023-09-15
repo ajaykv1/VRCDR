@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jul 21 16:54:31 2023
-
-@author: ajaykrishnavajjala
-"""
-
-#%%
 import pandas as pd
 import numpy as np
 import tensorflow as tf

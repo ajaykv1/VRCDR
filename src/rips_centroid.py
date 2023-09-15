@@ -2,7 +2,6 @@
 import ast
 import gudhi as gd
 import numpy as np
-#import cupy as cp
 import pandas as pd
 import matplotlib.pyplot as plt
 import pickle

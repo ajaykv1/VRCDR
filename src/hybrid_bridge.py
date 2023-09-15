@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jul 23 13:22:09 2023
-
-@author: ajaykrishnavajjala
-"""
-
-#%%
 import pandas as pd
 import numpy as np
 import pickle

@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul  4 12:34:40 2023
-
-@author: ajaykrishnavajjala
-"""
-#%%
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import LabelEncoder

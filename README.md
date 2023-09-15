@@ -6,4 +6,11 @@ Cross-domain recommendation (CDR) has emerged as a promising solution to allevia
 
 # Usage
 
-This is the code repository for our research project. This repository contains the files used to replicate the results of VRCDR from the paper. 
+This is the code repository for our research project. This repository contains the files used to replicate the results of VRCDR from the paper. There are 4 main directories:
+
+1. dataset: Contains datasets from the Amazon Review dataset that we use in our study. 
+2. src: Contains the main source code files that are used for pre-training models, computing the Vietoris-Rips Complex, and generating results for VRCDR.
+3. project_data: This is where all the CSV data is stored after being parsed, and it also contains information that the source files use for computation.
+4. stats: This contains the RMSE and MAE values for each target user based on VRCDR's performance, which is used for the two-tailed paired t-test on our study.
+
+

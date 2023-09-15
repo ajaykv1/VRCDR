@@ -8,17 +8,14 @@ from tensorflow.keras.callbacks import ModelCheckpoint
 from sklearn.model_selection import KFold
 from sklearn.metrics import mean_squared_error
 import tensorflow as tf
-#from transformers import BertTokenizer, TFBertModel
 from transformers import DistilBertTokenizer, TFDistilBertModel
 import math
-#from tensorflow.keras import mixed_precision
 import time
 import argparse
 from tensorflow.keras.callbacks import EarlyStopping
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 #%%
 start_time = time.time()
-#mixed_precision.set_global_policy('mixed_float16')
 #%%
 # Create the parser
 parser = argparse.ArgumentParser(description='Process some command line arguments.')
